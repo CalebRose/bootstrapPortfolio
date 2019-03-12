@@ -1,2 +1,3 @@
 # Bootstrap-Portfolio
-Personal portfolio site to showcase skills and bootcamp projects... WITH BOOTSTRAP
+
+Bootstrap Portfolio. Will be named calebrose.github.io on 3/19/19
