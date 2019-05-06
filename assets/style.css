@@ -1,138 +1,182 @@
 body {
-  padding-top: 56px;
-  background-color: #0d0221;
-  color: white;
+    padding-top: 56px;
+    background-color: #0d0221;
+    color: white;
 }
 
 .bg-dark {
-  background-color: #0d0221 !important;
+    background-color: #0d0221 !important;
 }
 
 header.masthead {
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - 50px);
-  background: linear-gradient(
-      to bottom,
-      rgba(56, 77, 66, 0.5) 0%,
-      rgba(92, 77, 66, 0.5) 100%
-    ),
-    url("../images/masthead.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 50px);
+    background: linear-gradient(to bottom,
+            rgba(56, 77, 66, 0.5) 0%,
+            rgba(92, 77, 66, 0.5) 100%),
+        url("../images/masthead.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
 }
 
 #name {
-  border-bottom: 0.2rem solid rgba(45, 226, 230, 1);
-  display: inline-block;
+    border-bottom: 0.2rem solid rgba(45, 226, 230, 1);
+    display: inline-block;
 }
 
 hr.divider {
-  border-color: rgba(45, 226, 230, 1);
+    border-color: rgba(45, 226, 230, 1);
 }
 
 .d-block {
-  color: rgba(45, 226, 230, 1);
+    color: rgba(45, 226, 230, 1);
 }
 
+#icons {
+    align-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-left: 0;
+    margin-bottom: 0;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+#contactInfo {
+    line-height: 34px;
+}
+
+#icons a {
+    margin-left: 5px;
+    margin-right: 5px;
+    vertical-align: middle;
+    padding-left: 2px;
+    padding-right: 2px;
+    line-height: 20px;
+}
+
+#icons a:hover {
+    color: rgba(13, 2, 33, 0.9) !important;
+    fill: rgba(255, 56, 100, 0.9) !important;
+    background-color: rgba(255, 56, 100, 0.9) !important;
+}
+
+#icons a {
+    color: rgba(255, 56, 100, 0.9) !important;
+    fill: transparent;
+}
+
+.icons {
+    align-content: center;
+    padding: 2px;
+    border: 2px solid rgba(255, 56, 100, 0.9);
+    border-radius: 100%;
+}
+
+
 #mastheadBreak {
-  opacity: 0;
+    opacity: 0;
 }
 
 .container h3 {
-  font-family: "Gugi", cursive;
-  letter-spacing: 0.1em;
+    font-family: "Gugi", cursive;
+    letter-spacing: 0.1em;
 }
 
 .container p {
-  font-family: "Press Start 2P", cursive;
-  font-size: 14px;
-  letter-spacing: 0.5px;
+    font-family: "Press Start 2P", cursive;
+    font-size: 14px;
+    letter-spacing: 0.5px;
 }
 
 #contact h2 {
-  font-family: "Gugi", cursive;
-  letter-spacing: 0.1em;
-  text-align: center;
-  color: rgba(45, 226, 230, 1);
+    font-family: "Gugi", cursive;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: rgba(45, 226, 230, 1);
 }
 
 #portfolio {
-  text-align: center;
-  color: rgba(45, 226, 230, 1);
-  margin-top: 20px;
+    text-align: center;
+    color: rgba(45, 226, 230, 1);
+    margin-top: 20px;
 }
 
 #skillSet {
-  text-align: center;
-  color: rgba(45, 226, 230, 1);
+    text-align: center;
+    color: rgba(45, 226, 230, 1);
 }
 
 #aboutMe h3 {
-  text-align: center;
-  color: rgba(45, 226, 230, 1);
-  padding-bottom: 5px;
+    text-align: center;
+    color: rgba(45, 226, 230, 1);
+    padding-bottom: 5px;
 }
 
 .card-portfolio {
-  background: transparent;
-  text-align: center;
-  border: 2px solid rgba(255, 56, 100, 0.9);
-  border-radius: 25px;
-  margin: 10px;
-  transition: 0.35s;
-  padding-top: 10px;
+    background: transparent;
+    text-align: center;
+    border: 2px solid rgba(255, 56, 100, 0.9);
+    border-radius: 25px;
+    margin: 10px;
+    transition: 0.35s;
+    padding-top: 10px;
 }
 
 .card-portfolio:hover {
-  background: rgba(255, 56, 100, 0.9);
-  color: white;
-  border-color: transparent;
-  box-shadow: 3px 3px 50px rgba(45, 226, 230, 0.5);
+    background: rgba(255, 56, 100, 0.9);
+    color: white;
+    border-color: transparent;
+    box-shadow: 3px 3px 50px rgba(45, 226, 230, 0.5);
 }
 
 .card-portfolio a {
-  color: white;
-  opacity: 1;
-  text-shadow: 0 0 5px rgba(255, 56, 100, 0.9);
-  font-family: "Open Sans", sans-serif;
+    color: white;
+    opacity: 1;
+    text-shadow: 0 0 5px rgba(255, 56, 100, 0.9);
+    font-family: "Open Sans", sans-serif;
 }
 
 .card-portfolio p {
-  font-size: 10px;
+    font-size: 10px;
 }
 
 .row-skill {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .card-skill {
-  background: transparent;
-  text-align: center;
-  /* border: 1px solid rgba(255, 108, 17, 0.9); */
-  padding: 1px;
-  fill: rgba(255, 108, 17, 0.9);
-  transition: 0.35s;
+    background: transparent;
+    text-align: center;
+    /* border: 1px solid rgba(255, 108, 17, 0.9); */
+    padding: 1px;
+    fill: rgba(255, 108, 17, 0.9);
+    transition: 0.35s;
 }
 
 .card-skill:hover {
-  background: rgba(255, 108, 17, 0.9);
-  fill: rgba(13, 2, 33, 0.9);
-  border-color: transparent;
-  box-shadow: 3px 3px 25px rgba(45, 226, 230, 0.5);
+    background: rgba(255, 108, 17, 0.9);
+    fill: rgba(13, 2, 33, 0.9);
+    border-color: transparent;
+    box-shadow: 3px 3px 25px rgba(45, 226, 230, 0.5);
 }
 
 .svg-icon {
-  fill: white;
-  width: 180px;
-  height: 200px;
+    fill: white;
+    width: 180px;
+    height: 200px;
 }
 
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption {
-  background: rgba(45, 226, 230, 1);
+    background: rgba(45, 226, 230, 1);
 }
 
 footer {
-  text-align: center;
+    text-align: center;
 }
