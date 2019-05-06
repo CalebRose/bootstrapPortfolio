@@ -62,7 +62,7 @@ hr.divider {
 }
 
 #icons a:hover {
-    color: rgba(13, 2, 33, 0.9) !important;
+    color: rgba(13, 2, 33, 0.9);
     fill: rgba(255, 56, 100, 0.9) !important;
     background-color: rgba(255, 56, 100, 0.9) !important;
 }
