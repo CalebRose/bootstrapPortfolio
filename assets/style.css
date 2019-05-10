@@ -34,51 +34,6 @@ hr.divider {
     color: rgba(45, 226, 230, 1);
 }
 
-#icons {
-    align-content: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    padding-left: 0;
-    margin-bottom: 0;
-    letter-spacing: 5px;
-    text-align: center;
-}
-
-#contactInfo {
-    line-height: 34px;
-}
-
-#icons a {
-    margin-left: 5px;
-    margin-right: 5px;
-    vertical-align: middle;
-    padding-left: 2px;
-    padding-right: 2px;
-    line-height: 20px;
-}
-
-#icons a:hover {
-    color: rgba(13, 2, 33, 0.9) !important;
-    fill: rgba(255, 56, 100, 0.9) !important;
-    background-color: rgba(255, 56, 100, 0.9) !important;
-}
-
-#icons a {
-    color: rgba(255, 56, 100, 0.9) !important;
-    fill: transparent;
-}
-
-.icons {
-    align-content: center;
-    padding: 2px;
-    border: 2px solid rgba(255, 56, 100, 0.9);
-    border-radius: 100%;
-}
-
 
 #mastheadBreak {
     opacity: 0;
@@ -177,6 +132,101 @@ hr.divider {
     background: rgba(45, 226, 230, 1);
 }
 
+#contactInfo {
+    line-height: 34px;
+}
+
+#icons {
+    align-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-left: 0;
+    margin-bottom: 0;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+
+
+#icons a {
+    margin-left: 5px;
+    margin-right: 5px;
+    vertical-align: middle;
+    padding-left: 2px;
+    padding-right: 2px;
+    line-height: 20px;
+    color: rgba(255, 56, 100, 0.9) !important;
+    fill: transparent;
+}
+
+#icons a:hover {
+    color: rgba(13, 2, 33, 0.9) !important;
+    fill: rgba(255, 56, 100, 0.9) !important;
+    background-color: rgba(255, 56, 100, 0.9) !important;
+}
+
+.icons {
+    align-content: center;
+    padding: 2px;
+    border: 2px solid rgba(255, 56, 100, 0.9);
+    border-radius: 100%;
+}
+
 footer {
     text-align: center;
+}
+
+@media only screen and (max-width: 640px) {
+    h3 {
+        font-size: 40px;
+    }
+
+    .card-portfolio {
+        max-width: 350px;
+        max-height: 400px;
+        padding-top: 25px;
+    }
+
+    .svg-icon {
+        max-width: 100px;
+        max-height: 100px;
+    }
+
+    .col-skill {
+        max-width: 50%;
+    }
+
+    .card-skill {
+        max-width: 100%;
+        max-height: 150px;
+        margin: 0;
+        align-content: center;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .card-skill svg {
+        max-width: 150px;
+        max-height: 150px;
+        align-content: center;
+    }
+
+    #icons {
+        width: 250px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-align: center;
+        align-content: center;
+        display: block;
+    }
+
+    #icons a {
+        padding: 7px;
+        padding-bottom: 8px;
+    }
+
 }
