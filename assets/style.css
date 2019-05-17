@@ -180,6 +180,13 @@ footer {
     text-align: center;
 }
 
+@media only screen and (max-width: 720px) {
+    .card-skill {
+        max-width: 150px;
+        max-height: 150px;
+    }
+}
+
 @media only screen and (max-width: 640px) {
     h3 {
         font-size: 40px;
@@ -228,5 +235,10 @@ footer {
         padding: 7px;
         padding-bottom: 8px;
     }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .card-skill {}
 
 }
